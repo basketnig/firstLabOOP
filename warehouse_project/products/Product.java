@@ -15,8 +15,6 @@ public abstract class Product implements Cloneable {
     private Weight weight;
     private final String category;
 
-    // спорсить почему два конструктора
-
     public Product(String name, int priceVal, int quantityVal, double weightVal, String category) {
         this.id = nextId++;
         this.name = name;
